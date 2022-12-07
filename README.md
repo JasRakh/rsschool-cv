@@ -1,36 +1,28 @@
 # rsschool-cv
 
-====
-
 # Jasurbek Rakhmanov
-
-====
 
 ### Contacts
 
-====
-*Location: Tashkent, Uzbekistan
-*Phone: +998 99 304 25 37
-*Email: rakhmanovjasur0@gmail.com
-*GitHub:JasRakh
+- Location: Tashkent, Uzbekistan
+- Phone: +998 99 304 25 37
+- Email: rakhmanovjasur0@gmail.com
+- GitHub:JasRakh
 
 ### About me
 
-====
 Currently, I am a student of AKFA University at Computer Science(IT) faculty.
+
 I am keen on sphere of Web-Development, especially Front-End.
 
 ### Skills
 
-====
-*HTML
-*CSS
-*JavaScript
-*Basics of C++
+- HTML
+- CSS
+- JavaScript
+- Basics of C++
 
 ### Code Example
-
-====
 
 ```
 #include <iostream>
@@ -55,11 +47,7 @@ int main(){
 
 ### Experience
 
-====
-
 ### Languages
-
-====
 
 - English: B2
 - Russian: C2
