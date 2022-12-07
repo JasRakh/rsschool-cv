@@ -7,7 +7,7 @@
 - Location: Tashkent, Uzbekistan
 - Phone: +998 99 304 25 37
 - Email: rakhmanovjasur0@gmail.com
-- GitHub:JasRakh
+- GitHub: JasRakh
 
 ### About me
 
