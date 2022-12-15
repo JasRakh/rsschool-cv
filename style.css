@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.header{
+
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+.nav-menu{
+    display: flex;
+    
+}
