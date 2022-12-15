@@ -97,3 +97,33 @@
     font-size: 20px;
     font-weight: bold;
 }
+@media (max-width: 720px){
+
+.header__container{
+    flex-direction: column;
+}
+.nav-menu{
+    margin-top: 20px;
+}
+.about{
+    flex-direction: column;
+}
+.about-img{
+    width: 60%;
+    height: 100%;
+    margin:50px auto 0;
+}
+.about-content{
+    width: 50%;
+    margin: auto;
+}
+.nav-menu__link{
+    font-size: 12px;
+}
+.footer__container{
+    flex-direction: column;
+}
+.footer__column{
+    margin-bottom: 15px;
+}
+} 
