@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>RS-SCHOOL</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.7.0/build/styles/default.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.7.0/build/highlight.min.js"></script>
   </head>
   <body>
 
     <header class="header">
-      <div class="container">
-        <h1><a href="">Jasur's CV</a></h1>
+      <div class="container header__container">
+        <h1 class="header__title"><a href="">Jasur's CV</a></h1>
         <nav class="nav">
           <ul class="nav-menu">
             <li class="nav-menu__link"><a href="#contact">Contacts</a></li>
@@ -23,15 +26,14 @@
       </div>
     </header>
     <main class="main container">
-      <div class="about">
-        <img class="about-img" src="./assets/img/image.jpg" alt="">
+      <section class="about">
+        <img class="about-img" src="./assets/img/image.jpg" alt="My photo">
         <div class="about-content">
           <h2 class="about-content__title">Contacts: </h2>
             <ul class="about-content__list">
               <li>Location: Tashkent, Uzbekistan</li>
               <li>Phone: +998 99 304 25 37</li>
               <li>Email: rakhmanovjasur0@gmail.com</li>
-              <li>GitHub: JasRakh</li>
             </ul>
             <h2 class="about-content__title">About me: </h2>
             <p class="about-content__text">
@@ -46,17 +48,18 @@
             </ul>
             <h2 class="about-content__title">Code example: </h2>
             <pre>
-                let bgTree = document.getElementById('background-tree');
-                let bgSpace = document.getElementById('background-space')
-                document.addEventListener('mousemove', function(e){
-                    MoveBackground(e);
-                })
-                function MoveBackground(e){
-                    let offsetX = (e.clientX / window.innerWidth * 30) - 15;
-                    let offsetY = (e.clientY / window.innerWidth * 10) - 5;
-
-                    bgTree.setAttribute('style', 'background-position:' + offsetX + 'px' + ' ' + offsetY + 'px')
+              <code class="language-javascript">
+      let bgTree = document.getElementById('background-tree')
+      let bgSpace = document.getElementById('background-space')
+        document.addEventListener('mousemove', function(e){
+          MoveBackground(e);
+        })
+      function MoveBackground(e){
+      let offsetX = (e.clientX / window.innerWidth * 30) - 15;
+      let offsetY = (e.clientY / window.innerWidth * 10) - 5;
+      bgTree.setAttribute('style', 'background-position:')
                 }
+              </code>
             </pre>
 
             <h2 class="about-content__title">Languages: </h2>
@@ -67,21 +70,20 @@
             </ol>
 
             <h2 class="about-content__title">My works: </h2>
-            <ul>
+            <ul class="about-content__list about-content__list-last">
               <li><a href="https://github.com/JasRakh/ActiveBox.git">ActiveBox(code)</a></li>
               <li><a href="https://github.com/JasRakh/MoGo.git">MoGo(code)</a></li>
-            </ul>
-            
-
-            
+            </ul> 
         </div>
-      </div>
+      </section>
     </main>
-    <footer class="footer container">
-      <div class="footer__column"><a href="https://github.com/JasRakh" target="_blank">JasRakh</a></div>
-      <div class="footer__column">2022</div>
-      <div class="footer__column"><a href="https://rs.school/js/"><img src="assets/img/rs_school-logo.svg" alt=""></a></div>
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__column"><a class="footer-link" href="https://github.com/JasRakh" target="_blank">JasRakh</a></div>
+        <div class="footer__column"><p>2022</p></div>
+        <div class="footer__column"><a class="footer-logo" href="https://rs.school/js/"><img src="assets/img/rs_school-logo.svg" alt=""></a></div>
+      </div>
     </footer>
-    
+    <script>hljs.initHighlightingOnLoad();</script>
   </body>
 </html>
