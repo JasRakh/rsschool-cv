@@ -1,1 +1,1 @@
-# rsschool-cv
+https://JasRakh.github.io/rsschool-cv/
